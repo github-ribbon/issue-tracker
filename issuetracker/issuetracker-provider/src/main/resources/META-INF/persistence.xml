@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="IssueTrackerRESTProvider" transaction-type="RESOURCE_LOCAL">
+		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+		<class>com.company.issuetracker.provider.domain.AffectedVersionEntity</class>
+		<class>com.company.issuetracker.provider.domain.AffectedVersionPKEntity</class>
+		<class>com.company.issuetracker.provider.domain.FixedVersionEntity</class>
+		<class>com.company.issuetracker.provider.domain.FixedVersionPKEntity</class>
+		<class>com.company.issuetracker.provider.domain.IssueEntity</class>
+		<class>com.company.issuetracker.provider.domain.IssueTypeEntity</class>
+		<class>com.company.issuetracker.provider.domain.IssueTypePKEntity</class>
+		<class>com.company.issuetracker.provider.domain.PriorityEntity</class>
+		<class>com.company.issuetracker.provider.domain.PriorityPKEntity</class>
+		<class>com.company.issuetracker.provider.domain.ProjectEntity</class>
+		<class>com.company.issuetracker.provider.domain.ProjectPKEntity</class>
+		<class>com.company.issuetracker.provider.domain.ResponseEntity</class>
+		<class>com.company.issuetracker.provider.domain.StatusEntity</class>
+		<class>com.company.issuetracker.provider.domain.StatusPKEntity</class>
+		<class>com.company.issuetracker.provider.domain.UserEntity</class>
+		<class>com.company.issuetracker.provider.domain.UserPKEntity</class>
+		<class>com.company.issuetracker.provider.domain.VersionEntity</class>
+		<class>com.company.issuetracker.provider.domain.VersionPKEntity</class>
+		<properties>
+			<property name="javax.persistence.jdbc.user" value="postgres"/>
+			<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+			<property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/issuetracker"/>
+			<property name="javax.persistence.jdbc.password" value="ppp"/>
+		</properties>
+	</persistence-unit>
+</persistence>

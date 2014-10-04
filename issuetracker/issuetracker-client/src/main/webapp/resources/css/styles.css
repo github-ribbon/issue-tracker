@@ -1,0 +1,78 @@
+#main {
+	margin-top: 80px;
+}
+.pag-box{
+	margin:0;	
+}
+
+.display-inline-block{
+	display:inline-block;
+}
+
+
+.badge{
+	font-size: 1em;
+}
+#remember-me {
+	margin-left: 20px;
+}
+
+.margin-small {
+	margin: 10px;
+}
+
+.margin-top-small {
+	margin-top: 10px;
+}
+
+.margin-bottom-small {
+	margin-bottom: 10px;
+}
+
+.padding-small {
+	padding: 10px;
+}
+
+.centered {
+	margin: 0 auto text-align: center;
+}
+
+.login-box {
+	width: 400px;
+}
+
+.value-box {
+	background: #eeeeee;
+	padding: 7px;
+	display: inline-block;
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-webkit-transition: border-color ease-in-out 0.15s, box-shadow
+		ease-in-out 0.15s;
+	transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.form-signin-heading {
+	
+}
+
+#form_ajax_loader {
+	z-index: 100;
+	display: none;
+	position: fixed;
+	width: 100%;
+	top: 50px;
+	left: 0px;
+}
+
+#form_ajax_loader>.progress {
+	height: 30px;
+}
+
+#form_ajax_loader .progress-bar {
+	width: 100%;
+	padding: 5px;
+	font-size: 1.1em;
+}
